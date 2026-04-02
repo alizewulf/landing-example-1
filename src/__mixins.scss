@@ -1,0 +1,28 @@
+@mixin button($color, $size, $bgc, $hovercol) {
+  font-size: $size;
+  color: $color;
+  background-color: $bgc;
+  padding: 14px 22px;
+  width: 120px;
+  height: 50px;
+  border-radius: 1000px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    background-color: $hovercol;
+    transition-duration: 300ms;
+  }
+}
+
+// @mixin arrow($bgc, $arrow) {
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 10px;
+//   background-color: $bgc;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   rotate: $arrow;
+// }
