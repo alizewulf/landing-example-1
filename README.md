@@ -1,2 +1,2 @@
 # landing-example-1 (VITE)
-https://alizewulf.github.io/landing-example-1/
+[visit to site](https://alizewulf.github.io/landing-example-1/)
